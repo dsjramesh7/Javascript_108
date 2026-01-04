@@ -1,5 +1,22 @@
-const num1 = Number(prompt("Enter a First Number: "));
-const num2 = Number(prompt("Enter a Second Number: "));
+// const a = Number(prompt("Enter a First Number: "));
+// const b = Number(prompt("Enter a Second Number: "));
+// console.log("Addition Result: ", a + b);
+// console.log("Subscription Result: ", a - b);
+// console.log("Multiplication Result: ", a * b);
+// console.log("Division Result: ", a / b);
 
-const result = num1 + num2;
-console.log("Addition Result: ", result);
+let a = (b = c = 14);
+console.log(a);
+console.log(b);
+console.log(c);
+
+let q = 27;
+const result = q % 2 === 0 ? "q is an even number" : "q is an odd number";
+console.log(result);
+
+let numberInRange = 24;
+const result2 =
+  numberInRange >= 10 && numberInRange <= 20
+    ? "number in range"
+    : "number not in range";
+console.log(result2);
